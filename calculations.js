@@ -14,7 +14,7 @@ export function divide(num1, num2) {
     return num1 / num2; 
 }
 
-export function pButton() {
+export function tri() {
     return 'a' * 'b' * 'c';
 
 }

@@ -4,6 +4,7 @@ import { add } from './calculations.js';
 import { sub } from './calculations.js';
 import { multiply } from './calculations.js';
 import { divide } from './calculations.js';
+export { tri } from './calculations';
   
 
 
@@ -83,7 +84,7 @@ pButton.addEventListener('click', () => {
     }
 
     if (Number.isNaN(b) && !Number.isNaN(a) && !Number.isNaN(c)) {
-        const b = Math.sqrt(a ** 2 - c ** 2);
+        const a = Math.sqrt(a ** 2 - c ** 2);
         output.textContent = ' ' + b;
     }
 
@@ -92,3 +93,5 @@ pButton.addEventListener('click', () => {
         output.textContent = ' ' + c;
     }
 });
+
+const a = Number(multiplyAnswer.value);
