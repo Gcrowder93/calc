@@ -8,7 +8,7 @@ body {
 
 h2 {
     background-color: tomato;
-    margin: 5px;
+    margin: -20px;
     margin-bottom: -25px;
 }
 h3 {
@@ -24,8 +24,19 @@ h4 { background-color: tomato;
 h5 {
     background-color: #cdff9e;
     margin: 5px;
+    margin-bottom: -1px;
 
 }
+
+h6 {
+    background-color: tomato;
+    margin: 5px;
+}
+
+output {
+    text-align: center;
+}
+
 .bouncebutton {
         display: block;
         align-items: center;
@@ -79,7 +90,7 @@ header img {
 }
 
 footer {
-    background-color: tomato;
+    background-color: #cdff9e;
     padding: 10px;
 }
 main {
