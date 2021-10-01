@@ -9,9 +9,9 @@ body {
 input[type=text] {
     background-color: peachpuff;
     color: darkred;
+    box-shadow: 3px 3px #666;
+    transform: translateY(4px);
 }
-
-
 
 button {
     background-color: peachpuff;
@@ -34,6 +34,7 @@ h2 {
     background-color: tomato;
     margin: -20px;
     margin-bottom: -25px;
+    
 }
 h3 {
     background-color: #cdff9e;
