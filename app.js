@@ -4,12 +4,11 @@ import { add } from './calculations.js';
 import { sub } from './calculations.js';
 import { multiply } from './calculations.js';
 import { divide } from './calculations.js';
-export { tri } from './calculations';
   
 
 
 
-const pButton = document.getElementById('pAnswer');
+
 
 // add field
 const addNumber1 = document.getElementById('add-number-1');
@@ -70,28 +69,3 @@ divideButton.addEventListener('click', () => {
 
 
 });
-
-pButton.addEventListener('click', () => {
-
-    var a = parseFloat(document.getElementById('a').value);
-    var b = parseFloat(document.getElementById('b').value);
-    var c = parseFloat(document.getElementById('c').value);
-    var output = document.getElementById('output');
-
-    if (Number.isNaN(b) && !Number.isNaN(a) && !Number.isNaN(c)) {
-        const b = Math.sqrt(c ** 2 - b ** 2);
-        output.textContent = ' ' + a;
-    }
-
-    if (Number.isNaN(b) && !Number.isNaN(a) && !Number.isNaN(c)) {
-        const a = Math.sqrt(a ** 2 - c ** 2);
-        output.textContent = ' ' + b;
-    }
-
-    if (Number.isNaN(c) && !Number.isNaN(a) && !Number.isNaN(b)) {
-        const c = Math.sqrt(a ** 2 + b ** 2);
-        output.textContent = ' ' + c;
-    }
-});
-
-const a = Number(multiplyAnswer.value);
