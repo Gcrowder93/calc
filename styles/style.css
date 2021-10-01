@@ -11,20 +11,24 @@ input[type=text] {
     color: darkred;
 }
 
+
+
 button {
     background-color: peachpuff;
     padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    line-height: 1px;
     font-size: 20px;
     border: solid;
     border-color: black;
     border-style: groove;
     border-radius: 2px;
-    height: 2px;
-    width: 2px;
     color: black;
-    cursor: pointer; }
+    cursor: help;
+    box-shadow: 3px 3px #666;
+    transform: translateY(4px);
+}
        
 h2 {
     background-color: tomato;
@@ -85,7 +89,7 @@ header img {
 }
 
 footer {
-    background-color: #cdff9e;
+    background-color: tomato;
     padding: 10px;
 }
 main {
