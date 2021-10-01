@@ -6,14 +6,23 @@ body {
     grid-template-rows: auto auto auto auto;
 }
 
+input[type=text] {
+    background-color: peachpuff;
+    color: darkred;
+}
+
 button {
     background-color: peachpuff;
     padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
-    border:none;
-    border-radius: 1px;
+    border: solid;
+    border-color: black;
+    border-style: groove;
+    border-radius: 2px;
+    height: 2px;
+    width: 2px;
     color: black;
     cursor: pointer; }
        
